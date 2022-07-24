@@ -16,3 +16,8 @@ When selecting the 'Delete' option, the application uses JavaScript 'confirm' me
 Apart from these, the application also has a search functionality for the customers, where it searches for a match in both first name and last name and gives the search results upon submitting.
 
 Also, sorting can be done by clicking on the column header. For example, the entries are required to be sorted on first name basis, then the respective column header (First Name) must be clicked and the entries will be sorted. Same applies to the other columns too.
+
+# AOP
+A LoggingAspect class is included in the project that uses Aspect Oriented Programming to log the flow of control from controller to service to DAO and back to the controller.
+
+@Before and @AfterReturning advices were used in the LoggingAspect class
