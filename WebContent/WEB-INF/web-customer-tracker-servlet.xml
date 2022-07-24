@@ -38,9 +38,9 @@
           destroy-method="close">
         <property name="driverClass" value="org.postgresql.Driver" />
         <property name="jdbcUrl" 
-        	value="jdbc:postgresql://apinsights.sadc-postgres-dev01.carbon.lowes.com:2050/apinsights?sslmode=require&amp;sslrootcert=/Users/3963813/Documents/Udemy - Spring and Hibernate Tutorial/spring-section-28/web-customer-tracker/src/main/resources/postgres/ca.crt&amp;sslcert=/Users/3963813/Documents/Udemy - Spring and Hibernate Tutorial/spring-section-28/web-customer-tracker/src/main/resources/postgres/server.crt&amp;sslkey=/Users/3963813/Documents/Udemy - Spring and Hibernate Tutorial/spring-section-28/web-customer-tracker/src/main/resources/postgres/server.pk8" />
-        <property name="user" value="apinsights" />
-        <property name="password" value="nQed5aqRBcH89e55QaNTBnGG9ttktT6kqORXTSHRW7tQKLFmx96rM0lyWBWvOtg5" /> 
+        	value="jdbcUrl" />
+        <property name="user" value="username" />
+        <property name="password" value="password" /> 
 
         <!-- these are connection pool properties for C3P0 -->
         <property name="minPoolSize" value="5" />
